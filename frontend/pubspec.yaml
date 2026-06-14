@@ -1,0 +1,41 @@
+name: flow
+description: A modern teaching application built with Flutter and Django.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  provider: ^6.0.0
+  shared_preferences: ^2.2.0
+  video_player: ^2.8.0
+  file_picker: ^6.0.0
+  image_picker: ^1.0.0
+  permission_handler: ^11.0.0
+  intl: ^0.18.0
+  jwt_decoder: ^2.0.1
+  go_router: ^11.0.0
+  google_fonts: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: CustomFont
+      fonts:
+        - asset: assets/fonts/CustomFont-Regular.ttf
+        - asset: assets/fonts/CustomFont-Bold.ttf
+          weight: 700
